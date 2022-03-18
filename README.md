@@ -1,1 +1,1 @@
-https://xtinat.github.io/rsschool-cv/cv
+https://xtinat.github.io/rsschool-cv/
