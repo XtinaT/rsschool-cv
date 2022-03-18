@@ -1,3 +1,30 @@
 * {
     font-family: 'Noto Sans JP', sans-serif;
 }
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    border:solid black;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap:wrap;
+    list-style-type: none;
+    border:solid black;
+
+}
+
+.menu li {
+    padding: 3px;
+    margin: 0 5px 0 5px;
+    border:solid black;
+}
+
+.photo img {
+    border-radius: 50%;
+}
