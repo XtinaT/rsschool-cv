@@ -32,7 +32,7 @@ div.HIDDEN_MENU {
   color: white;
 }
 
-li > a {
+.menu li > a {
   color: white;
   text-decoration: none;
 }
@@ -116,12 +116,52 @@ a {
   color: black;
 }
 
+.CV {
+    width:50%;
+    margin:auto;
+    padding: 5px;
+    border: 2px dashed #3e5541;
+    border-radius: 5px;
+    background-color:white;
+    font-weight: bold;
+    text-align:center;
+}
+
+.CV a{
+    text-decoration: none;
+}
+
+.CV:hover {
+    background-color: #3e5541;
+}
+
+.CV:hover a{
+    color:white;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #ffffff;
+    opacity: 0.8;
+    background-size: 11px 11px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      #eaeaea 0,
+      #eaeaea 1.1px,
+      #ffffff 0,
+      #ffffff 50%
+    );
+    border: dotted #a8a8a8;
+  }
+
 div.goUp img {
   width: 3em;
   position: fixed;
   right: 1vw;
   top: 90vh;
 }
+
 
 @media all and (max-width: 630px) {
   .content {
