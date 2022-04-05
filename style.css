@@ -116,6 +116,15 @@ a {
   color: black;
 }
 
+a:hover {
+    color: rgb(255, 205, 34);
+  }
+
+section a:hover {
+    color: rgb(147, 199, 99);
+  }
+  
+
 .CV {
     width:50%;
     margin:auto;
